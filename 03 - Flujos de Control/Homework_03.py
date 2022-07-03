@@ -1,5 +1,4 @@
 # 1)
-
 valor = 3
 
 if valor == 0:
@@ -69,3 +68,32 @@ for i in range(2,31):
             itera += 1
     if primo == 0:
         print(f"{i} es primo")    
+
+# 13)
+itera = 100
+while itera < 301:
+    if int(itera/12) == float(itera/12):
+        print(f"{itera} es divisible por 12")
+        itera += 11
+    itera += 1
+
+# 14)
+
+numero = int(input("ingrese numero: "))
+for i in range(2, numero - 1):
+    if int(numero/i) == float(numero/i):
+        print(f"{numero} no es primo")
+        break
+print(f"{numero} es primo")
+
+
+# 15)
+
+itera = 100
+while itera < 301:
+    if int(itera/3) == float(itera/3) and int(itera/6) == float(itera/6):
+        
+        print(f"{itera} es el numero")
+    
+        break
+    itera += 1
