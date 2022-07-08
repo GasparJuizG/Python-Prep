@@ -85,16 +85,29 @@ else:
 
 # 20)
 
-ciudad = input("ingrese ciudad: ")
-print(f"La ciudad aparece {ListaCiudades.count(ciudad)} veces")
+#ciudad = input("ingrese ciudad: ")
+#print(f"La ciudad aparece {ListaCiudades.count(ciudad)} veces")
 
 # 21)
 
 tupla = list(tupla)
 print(tupla)
 
-# 22)
-ListaCiudades = tuple(ListaCiudades)
+# 22) no pude
+'''ListaCiudades = tuple(ListaCiudades)
 print(ListaCiudades)
 ciudad1, ciudad2, ciudad3 = ListaCiudades
-print(f"{ciudad1}, {ciudad2}, {ciudad3}")
+print(f"{ciudad1}, {ciudad2}, {ciudad3}")'''
+
+# 23)
+
+DiccCiudades = { "ciudades" : ["Moscu", "Roma", "Berlin", "Tokio", "Lima"]}
+print(DiccCiudades)
+
+# 24)
+
+print(DiccCiudades.keys())
+
+# 25)
+
+print(DiccCiudades["ciudades"])
